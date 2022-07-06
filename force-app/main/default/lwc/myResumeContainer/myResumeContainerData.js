@@ -77,7 +77,7 @@ export const EXPERIENCE_DATA = {
             //     "Your Job description goes here iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
             DESCRIPTION_POINTS: [
                 "Used Salesforce.com to build POC(proof of concept) projects.",
-                "Implemented OAuth2, uplifted from jersey 1.x to jersey 2.x, removed security vulnerabilities(CVEs), fixed defects/bugs, uplifted project by removing all old dependencies and replaced them with latest ones and worked on building API in a Jersey(Java Framework) application for the Department of Defense(DoD) and Veteran Affairs(VA) of the United States Government. Also worked on a Sweden deployment for the same project.",
+                "Implemented OAuth2, uplifted from jersey 1.x to jersey 2.x and worked on building API in a Jersey(Java Framework) application for the Department of Defense(DoD) and Veteran Affairs(VA) of the United States Government.",
                 "Worked on an Enterprise Java application. Implemented circuit breaker functionality using resilience4j.",
                 "Implemented API for pagination, filtering and sorting using Ruby on Rails.",
                 "Developed frontend single-page CRUD applications using ReactJS(React Hooks, React functional components).",
@@ -114,7 +114,7 @@ export const PERSONAL_PROJECTS = {
                     "Lightning App Builder",
                     "Apex",
                     "REST Callouts(NewsApi REST API)",
-                    "Ligthning Web Components(LWC)",
+                    "Lightning Web Components(LWC)",
                     "Navigation",
                     "Pagination",
                 ]
@@ -122,6 +122,20 @@ export const PERSONAL_PROJECTS = {
         },
         {
             ID: 2,
+            PROJECT_NAME: "Portfolio resume",
+            DESCRIPTION:
+                "Used Salesforce platform to build a personal portfolio resume from scratch using:",
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used:',
+                LIST: [
+                    "Salesforce",
+                    "Experience Cloud",
+                    "Lightning Web Components(LWC)",
+                ]
+            }
+        },
+        {
+            ID: 3,
             PROJECT_NAME: "Job Application Tracker App(In Progress)",
             DESCRIPTION:
                 "Using Salesforce platform to build a job application tracker app from scratch using:",
@@ -134,20 +148,7 @@ export const PERSONAL_PROJECTS = {
                 ]
             }
         },
-        {
-            ID: 3,
-            PROJECT_NAME: "Portfolio resume",
-            DESCRIPTION:
-                "Used Salesforce platform to build a personal portfolio resume from scratch using:",
-            TECHNOLOGIES_USED: {
-                HEADING: 'Technologies used:',
-                LIST: [
-                    "Salesforce",
-                    "Experience Cloud",
-                    "Ligthning Web Components(LWC)",
-                ]
-            }
-        },
+        
     ]
 };
 
