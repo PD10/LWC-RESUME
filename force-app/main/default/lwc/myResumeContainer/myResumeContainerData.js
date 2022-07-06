@@ -111,6 +111,7 @@ export const PERSONAL_PROJECTS = {
                 HEADING: 'Technologies used:',
                 LIST: [
                     "Salesforce",
+                    "Lightning App Builder",
                     "Apex",
                     "REST Callouts(NewsApi REST API)",
                     "Ligthning Web Components(LWC)",
@@ -123,13 +124,27 @@ export const PERSONAL_PROJECTS = {
             ID: 2,
             PROJECT_NAME: "Job Application Tracker App(In Progress)",
             DESCRIPTION:
-                "Using Salesforce to build a job application tracker app from scratch using:",
+                "Using Salesforce platform to build a job application tracker app from scratch using:",
             TECHNOLOGIES_USED: {
                 HEADING: 'Technologies used:',
                 LIST: [
                     "Salesforce",
                     "Custom Objects",
                     "Flows",
+                ]
+            }
+        },
+        {
+            ID: 3,
+            PROJECT_NAME: "Portfolio resume",
+            DESCRIPTION:
+                "Used Salesforce platform to build a personal portfolio resume from scratch using:",
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used:',
+                LIST: [
+                    "Salesforce",
+                    "Experience Cloud",
+                    "Ligthning Web Components(LWC)",
                 ]
             }
         },
