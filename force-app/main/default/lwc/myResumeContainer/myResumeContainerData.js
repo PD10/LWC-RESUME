@@ -39,7 +39,7 @@ export const CAREER_SUMMARY = {
     // ]
 };
 
-export const EXPERIENCE_DATA={
+export const EXPERIENCE_DATA = {
     HEADING: "Work Experience",
     EXPERIENCES: [
         {
@@ -56,7 +56,7 @@ export const EXPERIENCE_DATA={
                 "Developing Lightning Web Components(LWC) by using JavaScript, Lightning Message Service(LMS), Lightning Design System(LDS)."
             ],
             TECHNOLOGIES_USED: {
-                HEADING: 'Technologies used',
+                HEADING: 'Technologies used:',
                 LIST: [
                     "Salesforce",
                     "Custom Objects",
@@ -85,7 +85,7 @@ export const EXPERIENCE_DATA={
                 "Used agile software development and methodologies."
             ],
             TECHNOLOGIES_USED: {
-                HEADING: 'Technologies used',
+                HEADING: 'Technologies used:',
                 LIST: [
                     "ReactJS",
                     "Java",
@@ -99,8 +99,44 @@ export const EXPERIENCE_DATA={
     ]
 }
 
+export const PERSONAL_PROJECTS = {
+    HEADING: "PERSONAL PROJECTS",
+    PROJECTS: [
+        {
+            ID: 1,
+            PROJECT_NAME: "News App",
+            DESCRIPTION:
+                "Used Salesforce platform to build a news app from scratch using:",
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used:',
+                LIST: [
+                    "Salesforce",
+                    "Apex",
+                    "REST Callouts(NewsApi REST API)",
+                    "Ligthning Web Components(LWC)",
+                    "Navigation",
+                    "Pagination",
+                ]
+            },
+        },
+        {
+            ID: 2,
+            PROJECT_NAME: "Job Application Tracker App(In Progress)",
+            DESCRIPTION:
+                "Using Salesforce to build a job application tracker app from scratch using:",
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used:',
+                LIST: [
+                    "Salesforce",
+                    "Custom Objects",
+                    "Flows",
+                ]
+            }
+        },
+    ]
+};
 
- export const EDUCATION_DATA={
+ export const EDUCATION_DATA = {
      ICON: SOCIAL + '/SOCIAL/education.svg',
      HEADING: "EDUCATION",
      LIST:[
@@ -110,9 +146,9 @@ export const EXPERIENCE_DATA={
              DURATION: "2015 - 2019",
          },
      ]
- }
+ };
 
- export const AWARDS_DATA={
+ export const AWARDS_DATA = {
      ICON: SOCIAL + '/SOCIAL/awards.svg',
      HEADING: "AWARDS",
      LIST: [
@@ -121,9 +157,9 @@ export const EXPERIENCE_DATA={
              DESCRIPTION:"Award obtained in Cerner for going above and beyond in service.",
          },
      ]
- }
+ };
 
-export const CERTIFICATION_DATA={
+export const CERTIFICATION_DATA = {
     ICON: SOCIAL + '/SOCIAL/certification.svg',
     HEADING: "CERTIFICATIONS",
     LIST: [
@@ -131,9 +167,9 @@ export const CERTIFICATION_DATA={
             NAME: "Salesforce Platform Developer 1",
         },
     ]
-}
+};
 
-export const LANGUAGES_DATA={
+export const LANGUAGES_DATA = {
     HEADING: "LANGUAGES",
     LIST: [
         {
@@ -149,9 +185,9 @@ export const LANGUAGES_DATA={
             // LEVEL: "Professional",
         },
     ]
-}
+};
 
-export const SKILLS_DATA ={
+export const SKILLS_DATA = {
     HEADING: "SKILLS & TOOLS",
     SKILLS:[
         {
@@ -197,9 +233,9 @@ export const SKILLS_DATA ={
             "MongoDB",
             "Postman"]
     }
-}
+};
 
 export const INTERESTS_DATA = {
     HEADING: "Interests",
     LIST: ["Driving", "Sports", "Gaming"]
-}
+};
