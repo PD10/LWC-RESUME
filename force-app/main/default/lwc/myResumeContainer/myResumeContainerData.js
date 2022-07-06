@@ -81,8 +81,6 @@ export const EXPERIENCE_DATA = {
                 "Worked on an Enterprise Java application. Implemented circuit breaker functionality using resilience4j.",
                 "Implemented API for pagination, filtering and sorting using Ruby on Rails.",
                 "Developed frontend single-page CRUD applications using ReactJS(React Hooks, React functional components).",
-                "Provided support to clients who used our platform.",
-                "Used agile software development and methodologies."
             ],
             TECHNOLOGIES_USED: {
                 HEADING: 'Technologies used:',
