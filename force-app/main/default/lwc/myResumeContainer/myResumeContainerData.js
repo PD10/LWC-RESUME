@@ -49,7 +49,7 @@ export const EXPERIENCE_DATA = {
             // DESCRIPTION:
             //     "Your Job description goes hereiusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
             DESCRIPTION_POINTS: [
-                "Salesforce Developer. Developed a POC project which helped to strengthen Salesforce Admin and Developer concepts(Apex, Trigger, Batch Apex, LWC). Developed a CPQ clone from scratch.",
+                "Worked in the Salesforce Delivery Team as Salesforce Developer.",
                 "Experience in designing Custom Objects, creating fields and relationships, validation rules, page layouts, record types and data security model.",
                 "Developing efficient code using Apex classes, Apex triggers, Batch Apex and Async Apex, Test classes wherever necessary.",
                 "Creating workflow rules, process builders, flows and approval process.",
@@ -168,6 +168,8 @@ export const PERSONAL_PROJECTS = {
      LIST: [
          {
              NAME: "NOTT Award",
+             UNIVERSITY_NAME: "Cerner",
+             DURATION: "2021",
              DESCRIPTION:"Award obtained in Cerner for going above and beyond in service.",
          },
      ]
